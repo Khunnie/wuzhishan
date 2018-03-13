@@ -1,0 +1,757 @@
+.mainPage{
+	position: relative;
+	background: #fff;
+	font-size: 14px;
+	color: #333;
+	padding-bottom: 50px;
+}
+.order_list{
+	width: 96%;
+	padding: 0 2%;
+}
+.order-step li {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+}
+.order-step li span {
+    display: block;
+    margin: 0 10px;
+    border-bottom: 4px solid #e0d0c1;
+    line-height: 3em;
+    font-size: 18px;
+    position: relative;
+}
+.order-step li.on span {
+    border-bottom-color: #6d4c30;
+}
+.order-step li span:after {
+    content: " ";
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    background-color: #e0d0c1;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    border-radius: 20px;
+}
+.order-step li.on span:after {
+    background-color: #6d4c30;
+}
+.order-block {
+    border: 3px solid #ddd;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.order-tit {
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+.order1 table th {
+    background-color: #f4f4f4;
+    text-align: left;
+    font-weight: 700;
+    color: #666;
+}
+.order1 table th p, .order1 table td p {
+    margin: 10px;
+}
+.order1 table td .red{
+	color:#ff4400;
+}
+.order1 em.orange {
+    color: #6d4c30;
+    font-weight:bold;
+    font-family: "宋体";
+}
+.order1 em.mon{
+	font-size: 22px;
+	color:#ff4400;
+}
+.order2-list .order2-tit {
+    color: #666;
+    font-size: 16px;
+    font-weight: 800;
+}
+.order2-list .order2-tit span {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+}
+.order2-list:last-child {
+    border-bottom: none;
+}
+.order2-list .order2-infors {
+    margin: 30px 0;
+}
+.order2-list .order2-infors dt, .order3 dt {
+    line-height: 30px;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    color: #999;
+}
+.btx {
+    width: 6px;
+    height: 6px;
+    background-color: #f60;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.order2-list .order2-infors dt, .order2-list .order2-infors dd, .order3 dt, .order3 dd {
+    float: left;
+}
+.order2-list .order2-infors .inputstyle, .order3 .inputstyle, .m4-list .inputstyle {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #cecbce;
+    width: 150px;
+    padding: 0 5px;
+}
+.BC_Control_Select {
+    position: relative;
+    height: 30px;
+}
+.BC_Control_Select span {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #cecbce;
+    text-indent: 10px;
+    padding-right: 20px;
+    display: block;
+    cursor: pointer;
+}
+.BC_Control_Select span i {
+    position: absolute;
+    z-index: 10;
+    right: 5px;
+    top: 12px;
+    width: 9px;
+    height: 6px;
+}
+.gicon4 {
+    background: url(../img/gicon4.png) 0 0 no-repeat;
+    display: inline-block;
+    width: 9px;
+    height: 6px;
+    font-size: 0;
+    zoom: 1;
+    vertical-align: middle;
+}
+.BC_Control_Select .list {
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    top: 27px;
+    min-width: 100%;
+    background: #fff;
+    border-top: 0;
+    display: none;
+    overflow: hidden;
+}
+.BC_Control_Select .list .box {
+    max-height: 110px;
+    border: 1px solid #cecbce;
+    overflow-y: auto;
+    margin: 0;
+}
+.BC_Control_Select .list a {
+    height: 22px;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: 0 20px 0 10px;
+    display: block;
+    color: #666;
+}
+.order3 dl {
+    height: 45px;
+    padding-left: 20px;
+    color: #999;
+}
+.order3-radio input[type="radio"] {
+    margin-right: -15px;
+    opacity: 0;
+    filter: "alpha(opacity=0)";
+    width: 15px;
+    height: 15px;
+}
+.order3-radio input[type="radio"]+span::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 4px solid #ccc;
+    margin-right: 5px;
+    background-color: #ccc;
+}
+.order3-radio input[type="radio"]:checked+span::before {
+    background-color: #1acc98;
+}
+.fapiao .BC_Control_Select span {
+    width: 200px;
+}
+.fapiao .BC_Control_Select .list {
+    width: 222px;
+}
+.BC_Control_Select .list .box {
+    max-height: 110px;
+    border: 1px solid #cecbce;
+    overflow-y: auto;
+    margin: 0;
+}
+.BC_Control_Select .list a {
+    height: 22px;
+    line-height: 22px;
+    white-space: nowrap;
+    padding: 0 20px 0 10px;
+    display: block;
+}
+.order3 .textareastyle {
+    width: 380px;
+    height: 60px;
+    padding: 5px;
+    border: 1px solid #cecbce;
+    color: #999;
+    font-family: "Microsoft yahei",Arial,simsun;
+}
+input{
+	font-size: 14px;
+}
+/*酒店详细*/
+.daohang {
+    padding: 20px 0;
+    font-size: 14px;
+}
+.daohang a {
+    font-size: 16px;
+    padding: 0 10px;
+    color: #666;
+}
+.box_fujia .tab .tabbox_fixed {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    border-bottom: 1px solid #e9e9e9;
+    box-shadow: 0 3px 5px #ebebeb;
+}
+.tour_image {
+    width: 650px;
+    float: left;
+}
+.tour_image .pro_svi {
+    position: relative;
+    width: 650px;
+    height: 450px;
+    margin-bottom: 11px;
+    overflow: hidden;
+}
+.tour_image_d{
+	width: 100%;
+	height: 100%;
+}
+.tour_image .scene_img_navs {
+    position: relative;
+    width:100%;
+    height: 80px;
+}
+
+.cr:hover {
+    background-position: -93px -53px;
+}
+.cl:hover{background-position:-62px -53px;}
+.tour_image .cl {
+    left: 0;
+}
+.tour_image .cr {
+    right: 0;
+}
+.tarrow{
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 80px;
+    z-index: 10;
+     background: url(../img/product_details.png) no-repeat;
+    display: inline-block;
+}
+.tarrow a{
+	width: 100%;
+	height: 100%;
+}
+.cl{
+    background-position: 0 -53px;
+}
+.cr{
+    background-position: -31px -53px;
+}
+.tour_image .tnavsbar {
+    position: relative;
+    left: 40px;
+    top: 0;
+    width: 602px;
+    height: 80px;
+    overflow: hidden;
+}
+.tour_image .tnavsbar ul {
+    width: 1080px;
+    height: 100%;
+    overflow: hidden;
+}
+.tour_image .tnavsbar ul li {
+    float: left;
+    margin-right: 13px;
+    cursor: pointer;
+    height: 100%;
+}
+.tour_image .tnavsbar ul li a.cur{border:4px solid #1acc98;width:102px;height:72px;}
+.tour_image .tnavsbar ul li a {
+    display: block;
+    width: 105px;
+    height: 80px;
+}
+.product_intro {
+    float: right;
+    width: 470px;
+    position: relative;
+}
+.product_intro .pro_tit {
+    height: 100px;
+}
+.product_intro .pro_tit h1 {
+    font-size: 26px;
+    padding-top: 10px;
+}
+.product_intro .pro_price {
+    color: #f90;
+    font-size: 26px;
+    padding: 0 0 25px;
+    border-bottom: 1px dotted #ccc;
+}
+.pro_info .pro_ilist {
+    margin: 25px 0;
+}
+.pro_info .pro_ilist > li {
+    height: 32px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 32px;
+    float: left;
+    width: 100%;
+    font-weight: bold;
+}
+.pro_info .pro_ilist > li > .pro_dt {
+    width: 80px;
+    float: left;
+}
+.pro_info .pro_ilist > li > .pro_dd {
+    float: left;
+    width: 360px;
+    color: #757575;
+}
+.pro_info .pro_ilist > li > .pro_dd > .pro_date {
+    height: 30px;
+    border: 1px solid #cecbce;
+    width: 230px;
+    padding: 0 5px;
+    position: relative;
+    background: #F4F4F4;
+}
+.pro_info .pro_ilist > li > .pro_dd > .pro_date .js_hotelDate {
+    width: 205px;
+    height: 28px;
+    line-height: 28px;
+    background: none;
+}
+.pro_info .pro_ilist > li > .pro_dd > .pro_date i {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.caleico {
+    width: 30px;
+    height: 30px;
+    background: url(../img/product_details.png) -89px 0 no-repeat;
+    display: inline-block;
+}
+.btn-qqonline {
+    width: 170px;
+    height: 55px;
+    border-radius: 6px;
+    margin-right: 25px;
+    display: block;
+    background: url(../img/qq.png) center center no-repeat #64bba2;
+}
+.btn-ordernow {
+    font-size: 26px;
+    line-height: 55px;
+    height: 55px;
+    display: block;
+    padding: 0;
+    text-align: center;
+    background-color: #f9751d;
+    color: #fff;
+    border-radius: 6px;
+    width: 55%;
+}
+.product_intro .pro_pay {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.product_intro .pro_pay li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.box_fujia .tab .tabbox {
+    width: 100%;
+    background: #eee;
+}
+.tab {
+    height: 80px;
+}
+
+.box_fujia .tab li {
+    float: left;
+    width: 140px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    color: #6c4c30;
+}
+.box_fujia .tab li.cur {
+    color: #000000;
+}
+.box {
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.fy_box{
+	background: #FFFFFF;
+}
+.fy_box h3 {
+    position: relative;
+    height: 50px;
+    margin: 40px 0 15px;
+    background-color: #dfcfc1;
+    border-left: 8px solid #6c4c30;
+    cursor: pointer;
+}
+.fy_box h3 span {
+    font-size: 18px;
+    color: #6c4c30;
+    padding: 0 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.fy_box h3:hover span{
+	color: #000;
+}
+.nr {
+    font-size: 14px;
+    color: #252424;
+    line-height: 1.8em;
+    margin: 0 20px;
+}
+.base-tit {
+	background: #f5f5f5;
+	height:40px;
+	line-height: 40px;
+    border-bottom: 1px solid #ddd;
+    color: #414650;
+    font-size: 16px;
+    font-weight: bold;
+    text-indent: 15px;
+}
+
+.comment-add .editor {
+    position: relative;
+    margin-right: 18px;
+}
+.comment-add .editor textarea {
+    width: 100%;
+    height: 70px;
+}
+.comment-add .subcon {
+    margin-top: 15px;
+}
+.subcon .btn{
+	background: #fcab44;
+    border-radius: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    padding: 0 60px;
+    color: #fff;
+    font-size: 14px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+input.small {
+    width: 50px;
+    border: 1px solid #ddd !important;
+    padding:7px;
+    border-radius: 2px;
+    margin-right: 5px;
+    height: 20px;
+}
+.btn_yzm img{
+	width: 80px;
+}
+.btn_yzm a{
+	color: #666;
+	font-size: 14px;
+}
+.nr .page-box{
+	margin: 15px 0;
+}
+div.digg {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align:right;
+    font-size: 14px;
+}
+div.digg span.disabled {
+    padding: 5px 12px;
+    margin: 0 0 0 8px;
+    color: #ddd;
+}
+div.digg span.current {
+    padding: 5px 12px;
+    margin: 0 0 0 8px;
+    color: #779c37;
+    font-weight: bold;
+}
+div.digg span {
+    display: block;
+    float: left;
+    padding: 5px 0;
+    line-height: 20px;
+    height: 20px;
+}
+.comment-list li{
+	padding: 17px 0;
+	border-bottom: 1px solid #efefef;
+	
+}
+.comment-list li img{
+	width: 36px;
+	height: 36px;
+	float: left;
+}
+.leave{
+	position: relative;
+	margin-left: 48px;
+}
+.leave p{
+	font-size: 16px;
+	line-height: 20px;
+}
+.leave time{
+	font-size: 16px;
+}
+.leave .the_name{
+	color: #74b664;
+}
+.detail_icon_time {
+    width: 14px;
+    height: 14px;
+    background-position: 0 -336px;
+    margin-top: -7px;
+}
+.leave .num{
+	position: absolute;
+	right: 0;
+	top: 0;
+	font-size: 18px;
+	color: #e3dddd;
+}
+/*长租*/
+.product_intro .long-txt{
+	text-align: center;
+	height: 150px;
+}
+.product_intro .long-txt h2{
+	font-size: 22px;
+	color: #00a3e9;
+	line-height: 30px;
+}
+.way{
+	text-align: center;
+	color: #ed922a;
+	font-size: 16px;
+	margin-bottom: 16px;
+}
+.way .ico-down{
+	width: 29px;
+	height: 29px;
+	background-position: 0 -359px;
+	vertical-align: middle;
+	margin-left: 6px;
+}
+.fish{
+	width:334px;
+	height: 3px;
+	margin-left: 16%;
+	margin-bottom:45px;
+	background: url(../img/bottom.png) no-repeat;
+}
+.way_list{
+	margin-bottom: 90px;
+}
+.way_list div{
+	width: 100px;
+	float: left;
+	border-radius: 4px;
+	margin-left:45px;
+	text-align: center;
+	position: relative;
+}
+.way_list div span {
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    color: #fff;
+    z-index: 2;
+}
+span.dhyd::after{
+	 content: "";
+    border-color: transparent transparent #865437 transparent;
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    left: 43%;
+    top: -12px;
+}
+span.wxyd {
+    width: 100px;
+    height: 100px;
+    background: url(../img/ewm.png) no-repeat;
+    background-size: 100% 100%;
+}
+.way_list div span.dhyd {
+    left: -20%;
+    width: 120px;
+    height: auto;
+    padding: 4px 15px;
+    background: #865437;
+    text-align: center;
+}
+.way_list div a{
+	height: 77px;
+}
+.way_list div p{
+	line-height: 30px;
+	font-size: 16px;
+}
+.dhyd{
+	color: #f8761e;
+}
+.wmyd{
+	color: #00a2e9;
+}
+.qqyd{
+	color: #66baa2;
+}
+.order-money em{
+	color: #ff4400;
+	font-weight: bold;
+	font-size:20px;
+}
+.order-money .f24{font-size: 24px;}
+.order-block7{
+	border-color: #6d4c30;
+}
+.order3-radio label{
+	margin-right: 40px;
+}
+.order3-radio img{
+	width: 140px;
+	height: 40px;
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
+.overmask {
+    background:rgba(0,0,0,.5);
+    filter: alpha(opacity=50);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 10000;
+    display: none;
+}
+.message_box {
+    width: 400px;
+    height: 451px;
+    background: url(../img/fk.jpg);
+    background-size: 100% 100%;
+    margin-left: -200px;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto;
+  }
+.message_head{
+	position: relative;
+	height:50px;
+}
+.close_cbox{
+	width: 20px;
+	height: 19px;
+	background: url(../img/close.png);
+	position: absolute;
+	bottom: 0;
+	right:25px;
+}
+.message_block{
+	position: absolute;
+	top: 226px;
+	left:140px;
+	font-weight: bold;
+	color: #000;
+	font-size: 40px;
+}
+.message_box .tip{
+	width: 100%;
+	height: 78px;
+	line-height: 78px;
+	background: #1acc98;
+	font-size: 18px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	bottom: 55px;
+}
+.tip a{color: #fff;width: 100%;height: 100%;}
+.js_start{font-size: 16px;cursor: pointer;}
+.room_list_r{
+	float: left;
+	margin-left: 20px;
+	width: 88%;
+	line-height: 30px;
+}
+.room_table_tit{
+	margin-right: 25px;
+}
+.pro_info .pro_ilist > li > .pro_dd{
+	word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+}
